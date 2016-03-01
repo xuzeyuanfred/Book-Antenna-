@@ -1,0 +1,21 @@
+#Book Antenna 
+
+##Description:
+
+This is a project that uses NSURL object to fetch data from Apple's iTunes API.
+By sending HTTP GET request to the server, with search info provided by the user, 
+the APP can get a dictionary of search results from the returned JSON file, and 
+download files when the user tabs 'Download' on a file in the search result. Besides 
+Download, the user can also tab 'Pause' and 'Cancel' to monitor the downloading process
+After download, local files will be displayed in the tab 'Bookshelf', with also a 
+functionality of deleting 
+
+##Requirement
+
+iOS 8.0+
+Xcode 7.0+
+Swift
+
+##License
+
+Book Antenna is under the MIT license 
