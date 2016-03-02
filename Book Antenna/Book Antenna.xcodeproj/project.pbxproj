@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578E96931C86409F004273AE /* Courier.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 578E96901C86409F004273AE /* Courier.sqlite */; };
+		578E96941C86409F004273AE /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E96921C86409F004273AE /* Database.m */; };
+		578E969A1C86424F004273AE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 578E96991C86424F004273AE /* libsqlite3.0.tbd */; };
 		C773B9F61C7EF67600A5EC29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773B9F51C7EF67600A5EC29 /* AppDelegate.swift */; };
 		C773B9F81C7EF67600A5EC29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773B9F71C7EF67600A5EC29 /* ViewController.swift */; };
 		C773BA0F1C7EFDA000A5EC29 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773BA0E1C7EFDA000A5EC29 /* Track.swift */; };
@@ -14,7 +17,6 @@
 		C773BA131C7EFDEA00A5EC29 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773BA121C7EFDEA00A5EC29 /* TrackCell.swift */; };
 		C773BA151C7EFE4400A5EC29 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773BA141C7EFE4400A5EC29 /* SearchViewController.swift */; };
 		C7E6A56B1C84E54100CBC271 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6A56A1C84E54100CBC271 /* BookCell.swift */; };
-		C7E6A5711C8584FF00CBC271 /* LocalReousrces.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6A5701C8584FF00CBC271 /* LocalReousrces.swift */; };
 		C7E6A5771C858BC000CBC271 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6A5761C858BC000CBC271 /* BookViewController.swift */; };
 		C7F4AB171C80142700D2E9FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F4AB161C80142700D2E9FA /* Main.storyboard */; };
 		C7F959C91C7FBCAF00556BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F959C81C7FBCAF00556BF0 /* Assets.xcassets */; };
@@ -22,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		578E96901C86409F004273AE /* Courier.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Courier.sqlite; sourceTree = "<group>"; };
+		578E96911C86409F004273AE /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		578E96921C86409F004273AE /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		578E96981C8641D7004273AE /* Book-Antenna-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Book-Antenna-Bridging-Header.h"; sourceTree = "<group>"; };
+		578E96991C86424F004273AE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		C773B9F21C7EF67600A5EC29 /* Book Antenna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Antenna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C773B9F51C7EF67600A5EC29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C773B9F71C7EF67600A5EC29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,7 +38,6 @@
 		C773BA121C7EFDEA00A5EC29 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		C773BA141C7EFE4400A5EC29 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C7E6A56A1C84E54100CBC271 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
-		C7E6A5701C8584FF00CBC271 /* LocalReousrces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalReousrces.swift; sourceTree = "<group>"; };
 		C7E6A5761C858BC000CBC271 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		C7F4AB161C80142700D2E9FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C7F959C81C7FBCAF00556BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,17 +49,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578E969A1C86424F004273AE /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		578E968F1C86409F004273AE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				578E96901C86409F004273AE /* Courier.sqlite */,
+				578E96911C86409F004273AE /* Database.h */,
+				578E96921C86409F004273AE /* Database.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		C773B9E91C7EF67600A5EC29 = {
 			isa = PBXGroup;
 			children = (
+				578E96991C86424F004273AE /* libsqlite3.0.tbd */,
+				578E96981C8641D7004273AE /* Book-Antenna-Bridging-Header.h */,
 				C773BA121C7EFDEA00A5EC29 /* TrackCell.swift */,
 				C7E6A56A1C84E54100CBC271 /* BookCell.swift */,
+				578E968F1C86409F004273AE /* Database */,
 				C773B9F41C7EF67600A5EC29 /* Book Antenna */,
 				C773B9F31C7EF67600A5EC29 /* Products */,
 			);
@@ -76,9 +96,8 @@
 				C7F4AB161C80142700D2E9FA /* Main.storyboard */,
 				C773BA101C7EFDBA00A5EC29 /* Download.swift */,
 				C7E6A5761C858BC000CBC271 /* BookViewController.swift */,
-				C773B9F71C7EF67600A5EC29 /* ViewController.swift */,
 				C773BA141C7EFE4400A5EC29 /* SearchViewController.swift */,
-				C7E6A5701C8584FF00CBC271 /* LocalReousrces.swift */,
+				C773B9F71C7EF67600A5EC29 /* ViewController.swift */,
 				C773BA011C7EF67600A5EC29 /* Info.plist */,
 				C7F959C81C7FBCAF00556BF0 /* Assets.xcassets */,
 			);
@@ -147,6 +166,7 @@
 				C7F959CB1C7FBDBA00556BF0 /* Launch Screen.storyboard in Resources */,
 				C7F959C91C7FBCAF00556BF0 /* Assets.xcassets in Resources */,
 				C7F4AB171C80142700D2E9FA /* Main.storyboard in Resources */,
+				578E96931C86409F004273AE /* Courier.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +182,7 @@
 				C773B9F81C7EF67600A5EC29 /* ViewController.swift in Sources */,
 				C773B9F61C7EF67600A5EC29 /* AppDelegate.swift in Sources */,
 				C7E6A56B1C84E54100CBC271 /* BookCell.swift in Sources */,
-				C7E6A5711C8584FF00CBC271 /* LocalReousrces.swift in Sources */,
+				578E96941C86409F004273AE /* Database.m in Sources */,
 				C7E6A5771C858BC000CBC271 /* BookViewController.swift in Sources */,
 				C773BA0F1C7EFDA000A5EC29 /* Track.swift in Sources */,
 				C773BA111C7EFDBA00A5EC29 /* Download.swift in Sources */,
@@ -260,10 +280,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Book Antenna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Heraclitus.Book-Antenna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Book-Antenna-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -274,10 +296,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Book Antenna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Heraclitus.Book-Antenna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Book-Antenna-Bridging-Header.h";
 			};
 			name = Release;
 		};

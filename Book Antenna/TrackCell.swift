@@ -2,7 +2,7 @@
 //  TrackCell.swift
 //  Book Antenna
 //
-//  Created by Siliangyu Cheng on 2/25/16.
+//  Created by Zeyuan Xu on 2/25/16.
 //  Copyright © 2016 Heraclitus.corp. All rights reserved.
 //
 

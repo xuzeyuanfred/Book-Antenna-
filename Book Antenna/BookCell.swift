@@ -2,7 +2,7 @@
 //  BookCell.swift
 //  Book Antenna
 //
-//  Created by Siliangyu Cheng on 2/29/16.
+//  Created by Zeyuan Xu on 2/29/16.
 //  Copyright © 2016 Heraclitus.corp. All rights reserved.
 //
 
