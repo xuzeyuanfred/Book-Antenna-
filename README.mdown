@@ -2,19 +2,30 @@
 
 ##Description:
 
+
+###Swift
+
 This is a project that uses NSURL object to fetch data from Apple's iTunes API.
 By sending HTTP GET request to the server, with search info provided by the user, 
 the APP can get a dictionary of search results from the returned JSON file, and 
 download files when the user tabs 'Download' on a file in the search result. Besides 
 Download, the user can also tab 'Pause' and 'Cancel' to monitor the downloading process
 After download, local files will be displayed in the tab 'Bookshelf', with also a 
-functionality of deleting 
+functionality of deleting. Audio files can be played by a media player 
+
+###Objective C
+
+database class is implemented to store downloaded content of audio files
+local downloaded files are stored inside the database, and can be accessed 
+by TableViewIndex
 
 ##Requirement
 
 iOS 8.0+
+
 Xcode 7.0+
-Swift
+
+Swift 2.0
 
 ##License
 
