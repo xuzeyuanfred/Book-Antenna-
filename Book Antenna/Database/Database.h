@@ -1,5 +1,10 @@
-
- // Copyright(c) 2011 IndiaNIC.com. All rights reserved.
+//
+//  Database.h
+//  Book Antenna
+//
+//  Created by Zeyuan Xu on 2/29/16.
+//  Copyright © 2016 Heraclitus.corp. All rights reserved.
+//
 
 
 #import <UIKit/UIKit.h>

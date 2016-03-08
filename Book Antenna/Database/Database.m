@@ -1,5 +1,11 @@
+//
+//  Database.m
+//  Book Antenna
+//
+//  Created by Zeyuan Xu on 2/29/16.
+//  Copyright © 2016 Heraclitus.corp. All rights reserved.
+//
 
-// Copyright(c) 2011 IndiaNIC.com. All rights reserved.
 
 #import "Database.h"
 
@@ -51,7 +57,7 @@ NSString * const DataBaseName  = @"Courier.sqlite"; // Pass Your DataBase Name O
     
     
   
-         }
+}
 
     
 
